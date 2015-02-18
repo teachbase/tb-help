@@ -1,0 +1,307 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201502 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.qna.z7dev.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1992                
+POS_TIME 2673                
+POS_VISITOR 6608                
+POS_DAY 7063                
+POS_DOMAIN 3272                
+POS_LOGIN 3504                
+POS_ROBOT 3659                
+POS_WORMS 3823                
+POS_EMAILSENDER 3954                
+POS_EMAILRECEIVER 4097                
+POS_SESSION 7201                
+POS_SIDER 7395                
+POS_FILETYPES 4232                
+POS_DOWNLOADS 4447                
+POS_OS 4495                
+POS_BROWSER 4649                
+POS_SCREENSIZE 4845                
+POS_UNKNOWNREFERER 4919                
+POS_UNKNOWNREFERERBROWSER 5084                
+POS_ORIGIN 5166                
+POS_SEREFERRALS 5305                
+POS_PAGEREFS 5460                
+POS_SEARCHWORDS 5608                
+POS_KEYWORDS 5789                
+POS_MISC 2335                
+POS_ERRORS 5879                
+POS_CLUSTER 3360                
+POS_SIDER_404 6011                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150218175958 583 149982 16814167218545
+FirstTime 20150216041741
+LastTime 20150218175958
+LastUpdate 20150218180132 0 0 0 0 0
+TotalVisits 15                  
+TotalUnique 8                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 8                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 157 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 21 33281 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 215 462 6867693 23 28 59001
+5 47 201 1776338 3 3 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 10 52 238252 2 11 0
+9 18 47 281329 0 20 0
+10 1 21 28048 0 0 0
+11 0 0 0 0 0 0
+12 18 347 231800 0 4 0
+13 0 0 0 0 0 0
+14 46 117 3012816 9 19 4100
+15 76 79 1115064 1 9 0
+16 5 5 374 1 1 0
+17 29 29 3175 1 1 0
+18 1 20 151730 0 1 0
+19 2 21 27315 1 2 0
+20 0 0 0 0 1 0
+21 0 0 0 0 0 0
+22 91 1463 4724801 0 69 0
+23 37 676 488015 0 37 14316
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 597 3561 18980031
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+wordpress 13 0 20150218171001 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 424 1349707 0 0
+png 1821 1687737 0 0
+php 338 6943837 0 0
+html 259 2334477 0 0
+js 613 5875443 0 0
+jpg 77 694294 0 0
+svg 4 4563 0 0
+gif 25 89973 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+macosx 32 10
+linuxandroid 445 34
+macosx9 130 21
+Unknown 299 21
+linux 180 9
+win7 2475 502
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome40.0.2214.111 1285 395
+firefox34.0 459 29
+chrome40.0.2214.89 355 25
+android 20 1
+firefox35.0 1320 128
+safari 32 10
+chrome40.0.2214.109 90 9
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(Android;_Mobile;_rv:34.0)_Gecko/34.0_Firefox/34.0 20150217225746
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 111 111
+From1 0 0
+From2 1 1
+From3 0 0
+From4 485 3449
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+http+%2f%2fqna.z7dev.ru%2f 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+http 1
+%2f%2fqna.z7dev.ru%2f 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 1 3780
+302 25 52807
+500 3 5556
+404 4 14954
+301 1 320
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/wp-content/themes/z7_qna/res/bg.jpg 2 http://qna.z7dev.ru/wp-content/themes/z7_qna/style.css
+/wp-content/themes/z7_qna/res/ico04.png 1 http://qna.z7dev.ru/wp-content/themes/z7_qna/style.css
+/wp-content/themes/z7_qna/res/ico03.png 1 http://qna.z7dev.ru/wp-content/themes/z7_qna/style.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 8
+93.92.183.49 262 663 8644031 20150216050705
+95.129.170.45 143 2434 5387486 20150218123828
+62.117.84.120 125 255 3100783 20150218175958 20150218171001 /wp-admin/admin-ajax.php
+95.129.174.48 51 83 1383123 20150217162239
+195.16.111.86 10 32 215340 20150216092608
+82.145.208.144 3 52 57130 20150218123538
+82.145.208.114 2 21 158857 20150217191720
+79.139.146.49 1 21 33281 20150218003540
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20150216 289 741 9156415 3
+20150217 182 2264 6776781 5
+20150218 126 556 3046835 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 3
+0s-30s 6
+30s-2mn 1
+15mn-30mn 1
+2mn-5mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 37
+/wp-admin/admin-ajax.php 238 150154 1 3
+/ 188 1402305 13 10
+/wp-admin/load-scripts.php 28 1744988 0 0
+/kakie-dokumenty-predstavlyayutsya-v-nalogovyj-organ-dlya-podtverzhdeniya-prava-na-osvobozhdenie-ot-ispolneniya-obyazannosti-po-uplate-nds/ 24 293353 0 0
+/wp-admin/edit-tags.php 12 411281 0 0
+/wp-admin/nav-menus.php 11 916522 0 0
+/wp-admin/load-styles.php 9 820748 0 0
+/category/faq/ 8 98076 0 0
+/category/kursy/ 7 64578 0 0
+/wp-admin/plugins.php 6 188288 0 0
+/wp-admin/post-new.php 2 308688 0 0
+/wp-admin/users.php 1 35335 0 0
+/category/biblioteka/ 3 24756 0 0
+/wp-admin/async-upload.php 1 2042 0 0
+/wp-admin/install.php 2 9065 1 0
+/category/polzovateli/ 1 13130 0 0
+/sample-page/ 2 10905 0 0
+/category/otchety/ 2 18119 0 0
+/wp-admin/ 5 233907 0 0
+/wp-admin/theme-editor.php 1 28983 0 0
+/category/rezultaty-i-statistika/ 2 18022 0 0
+/wp-admin/user-new.php 1 27002 0 0
+/wp-admin/post.php 3 474363 0 0
+/wp-admin/plugin-install.php 5 1005421 0 0
+/category/nastrojki-akkuanta/ 2 19930 0 0
+/wp-admin/options-permalink.php 2 55320 0 0
+/wp-admin/profile.php 1 30686 0 0
+/category/testy/ 5 47932 0 0
+/wp-admin/update.php 2 36560 0 0
+/wp-includes/js/tinymce/wp-tinymce.php 2 272394 0 0
+/wp-admin/edit.php 3 146455 0 0
+/category/videovstrechi/ 4 35900 0 0
+/wp-login.php 3 13102 0 0
+/wp-admin/themes.php 2 103522 0 0
+/wp-admin/options-general.php 3 162918 0 0
+/category/bezopasnost/ 2 13504 0 1
+/privet-mir/ 4 40060 0 0
+END_SIDER

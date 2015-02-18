@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/qna.z7dev.ru/webstat"
+AuthUserFile /var/www/user2382986/data/etc/67520602.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
