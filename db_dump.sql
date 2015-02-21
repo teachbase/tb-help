@@ -74,9 +74,6 @@ CREATE TABLE IF NOT EXISTS `wpqna_comments` (
 -- Дамп данных таблицы `wpqna_comments`
 --
 
-INSERT INTO `wpqna_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `comment_author_email`, `comment_author_url`, `comment_author_IP`, `comment_date`, `comment_date_gmt`, `comment_content`, `comment_karma`, `comment_approved`, `comment_agent`, `comment_type`, `comment_parent`, `user_id`) VALUES
-(1, 1, 'Мистер WordPress', '', 'https://wordpress.org/', '', '2015-02-16 01:18:52', '2015-02-16 01:18:52', 'Привет! Это комментарий.\nЧтобы удалить его, авторизуйтесь и просмотрите комментарии к записи. Там будут ссылки для их изменения или удаления.', 0, '1', '', '', 0, 0);
-
 -- --------------------------------------------------------
 
 --
@@ -131,7 +128,7 @@ INSERT INTO `wpqna_options` (`option_id`, `option_name`, `option_value`, `autolo
 (3, 'blogname', 'qna', 'yes'),
 (4, 'blogdescription', 'Ещё один сайт на WordPress', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
-(6, 'admin_email', 'z7zen@z7zen.com', 'yes'),
+(6, 'admin_email', 'info@teachbase.ru', 'yes'),
 (7, 'start_of_week', '1', 'yes'),
 (8, 'use_balanceTags', '0', 'yes'),
 (9, 'use_smilies', '1', 'yes'),
@@ -165,7 +162,7 @@ INSERT INTO `wpqna_options` (`option_id`, `option_name`, `option_value`, `autolo
 (37, 'comment_max_links', '2', 'yes'),
 (38, 'gmt_offset', '3', 'yes'),
 (39, 'default_email_category', '1', 'yes'),
-(40, 'recently_edited', 'a:2:{i:0;s:77:"/var/www/user2382986/data/www/help.teachbase.ru/wp-content/themes/z7_qna/style.css";i:1;s:0:"";}', 'no'),
+(40, 'recently_edited', 'a:2:{i:0;s:77:"/webapps/help.teachbase/www/wp-content/themes/z7_qna/style.css";i:1;s:0:"";}', 'no'),
 (41, 'template', 'z7_qna', 'yes'),
 (42, 'stylesheet', 'z7_qna', 'yes'),
 (43, 'comment_whitelist', '1', 'yes'),
@@ -677,5 +674,5 @@ CREATE TABLE IF NOT EXISTS `wpqna_users` (
 --
 
 INSERT INTO `wpqna_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'admin_qna', '$P$BClzQpUYVPCFuKRMGD83R/NDUVDSbc.', 'admin_qna', 'z7zen@z7zen.com', '', '2015-02-16 01:18:52', '', 0, 'admin_qna'),
-(2, 'readctor', '$P$BrLpOS1.4LCT9/0ZH8Esif2Rmce0CT0', 'readctor', 'z7zen@z7zen.ru', '', '2015-02-17 11:50:45', '', 0, 'readctor');
+(1, 'tb_admin', 'd8578edf8458ce06fbc5bb76a58c5ca4', 'tb_admin', 'dem@teachbase.ru', '', '2015-02-16 01:18:52', '', 0, 'Admin'),
+(2, 'tb_editor', '$P$BrLpOS1.4LCT9/0ZH8Esif2Rmce0CT0', 'tb_editor', 'demteachbase.ru', '', '2015-02-17 11:50:45', '', 0, 'Editor');
