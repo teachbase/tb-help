@@ -5,6 +5,5 @@
 			<input type="text" name="s" placeholder="Введите свой вопрос" value="<?php echo get_search_query(); ?>">
 			<input type="submit" value="Найти ответ">
 		</form>
-		<a href="#" class="tour">Тур по TechBase</a>
 		<div class="clear"></div>
 	</div>
