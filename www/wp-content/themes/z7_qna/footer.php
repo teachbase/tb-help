@@ -1,9 +1,7 @@
 </div>
 <div class="footer">
-<div class="wrap">
-		
+  <div class="wrap">
+  </div>
 </div>
-</div>
-<?php wp_footer(); ?>
 </body>
 </html>
