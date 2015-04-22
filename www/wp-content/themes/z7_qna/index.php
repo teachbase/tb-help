@@ -6,9 +6,9 @@
 	$args = array(
 		'theme_location'  => 'homepage-menu',
 		'container'       => 'div',
-		'container_class' => '',
+		'container_class' => 'row',
 		'container_id'    => 'home-page-menu',
-		'menu_class'      => 'menu',
+		'menu_class'      => 'menu col-xs-12',
 		'menu_id'         => '',
 		'echo'            => true,
 		'fallback_cb'     => 'wp_page_menu',
