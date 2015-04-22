@@ -1,5 +1,5 @@
-<div class="sidebar">
-		<ul class="menu">
-			<?php wp_nav_menu( array( 'theme_location' => 'sec' , 'container'=> false, 'items_wrap'=> '%3$s', 'link_after'=>'') ); ?>
-		</ul>
-	</div>
+<div class="sidebar col-sm-3">
+	<?php if ( is_active_sidebar( 'sidebar-primary' ) ) : ?>
+		<?php dynamic_sidebar( 'sidebar-primary' ); ?>
+	<?php endif; ?>
+</div>
