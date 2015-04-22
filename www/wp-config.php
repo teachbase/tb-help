@@ -22,7 +22,9 @@ define('DB_NAME', 'wordpress');
 define('DB_USER', 'wordpress');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'wordpress');
+
+
+define('DB_PASSWORD', '8P<[Q[=p^rL:,7V');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
@@ -71,6 +73,9 @@ $table_prefix  = 'wpqna_';
 define('WP_DEBUG', false);
 
 /* Это всё, дальше не редактируем. Успехов! */
+
+/* Для загрузки плагинов напрямую */
+define('FS_METHOD', 'direct');
 
 /** Абсолютный путь к директории WordPress. */
 if ( !defined('ABSPATH') )
