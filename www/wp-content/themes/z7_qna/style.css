@@ -94,6 +94,7 @@ h1,h2,h3,h4,h5,h6{font-weight:300; color:#000000;}
 .container .contentcolumn .post h1{font-size: 16px; line-height: 20px; margin-top: 0;}
 .post p{line-height: 19px; margin: 20px 0;}
 .category-title{font-weight:700; margin-bottom:40px;}
+/*.subcategory-wrapper{padding:0 20px;}*/
 .subcategory-wrapper  > ul, .post-list{list-style:none; padding:0;}
 .subcategory-wrapper  > ul li{font-size:18px; margin:25px 0;}
 
@@ -120,7 +121,7 @@ h4.copyright:before {content: '©';position: absolute;top: 0;left: -18px;}
 #home-page-menu .menu li a{vertical-align: middle; display: table-cell; color:#000000;}
 #home-page-menu .menu li a img{display:block; margin:0 auto 20px;}
 
-#crumbs{color:#898989;display: block;width: 100%;clear: both; text-align: left; margin:10px 0 40px;}
+#crumbs{color:#898989;display: block;width: 100%;clear: both; text-align: left; margin:10px 0 40px; padding:0 20px;}
 #crumbs a{color:#898989; text-decoration: underline;}
 
 img.aligncenter{display:block; margin:0 auto; clear:both;}
@@ -134,9 +135,13 @@ img.alignright{display:block; margin-left:25px; margin-bottom: 15px; float:right
 .search-results .title{font-size:18px;}
 
 #menu-social{text-align: right;}
-#menu-social li{display:inline-block;}
+#menu-social li{display:block;width:25%; float:left;}
+#menu-social li a{display:block; text-align: center;}
+#menu-social li a img{max-width:100%; height:auto;}
+
 
 @media screen and (min-width:1200px){
 	.footer .widget-area{padding:0;}
+	#menu-social li a{text-align: right;}
 }
 
