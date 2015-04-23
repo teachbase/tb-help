@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<h3>Чем мы можем Вам помочь?</h3>
-<div class="subtitle">Выберите категорию, чтобы найти нужную справочную информацию</div>
+<h3 class="home-title">Чем мы можем Вам помочь?</h3>
+<div class="home-subtitle">Выберите категорию, чтобы найти нужную справочную информацию</div>
 <div class="contentcolumn">
 	<?php 
 	$args = array(
@@ -24,7 +24,7 @@
 		$my_wp_query= null; $my_wp_query = new WP_Query(); $my_wp_query->query( 'cat='.$faq->cat_ID );
 		if ($my_wp_query->have_posts()) :
 	?>
-		<h3><?php echo $faq->name;?></h3>
+		<h3 class="faq-title"><?php echo $faq->name;?></h3>
 		<ul class="faq-list row">
 			<?php  while ($my_wp_query->have_posts()) : $my_wp_query->the_post(); ?>
 				<li class="col-sm-6"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>

@@ -132,6 +132,9 @@ img.aligncenter{display:block; margin:0 auto; clear:both;}
 img.alignleft{display:block; margin-right:25px; margin-bottom: 15px; float:left;}
 img.alignright{display:block; margin-left:25px; margin-bottom: 15px; float:right;}
 
+.home-title, .faq-title{font-weight:700;}
+.faq-title{margin-bottom:30px;}
+.home-subtitle{font-size: 18px; color:#767676; margin-bottom:60px;}
 
 .result-heading{font-size:24px; margin-bottom:35px; margin-top: 20px;}
 .search-results ul{list-style:none; padding:0;}
