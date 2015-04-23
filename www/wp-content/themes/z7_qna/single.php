@@ -13,7 +13,7 @@
 				<?php if(function_exists('the_ratings')) { the_ratings(); } ?>
 			</div>
 		</div>
-		<div class="fave">
+		<div class="fave row col-xs-12">
 			<?php wp_related_posts()?>
 		</div>
 		
