@@ -109,12 +109,13 @@ h1,h2,h3,h4,h5,h6{font-weight:300; color:#000000;}
 .container .contentcolumn .like-block .col-sm-4{padding-left:0;}
 .container .contentcolumn .like-block .post-ratings img:first-child{margin-right: 10px;}
 
-.footer{overflow: hidden; margin-top:50px; background:#fafafa; border-top:1px solid #e7e7e7; width:100%; padding:30px 0;}
-.footer h4{margin-top:0; font-size:16px;}
+.footer{overflow: hidden; margin-top:50px; background:#fafafa; border-top:1px solid #e7e7e7; width:100%;   padding: 35px 0 10px;}
+.footer h4{margin-top:0; font-size:16px; margin-bottom:20px;}
 .footer .footer-mail{margin-bottom:20px;}
+.footer .widget-area{margin-bottom:20px;}
 .footer .footer-mail a{color:#252525; text-decoration: underline;}
-.footer .footer-section:last-child{padding-left:0;}
 .sidebar-footer .widget_nav_menu ul.menu{list-style: none; padding:0;}
+.sidebar-footer .widget_nav_menu ul.menu li{margin-bottom:15px;}
 .sidebar-footer .widget_nav_menu ul.menu li a{color:#a1a1a1; text-decoration: underline;}
 h4.copyright {position: relative;}
 h4.copyright:before {content: '©';position: absolute;top: 0;left: -18px;}
@@ -131,6 +132,9 @@ img.aligncenter{display:block; margin:0 auto; clear:both;}
 img.alignleft{display:block; margin-right:25px; margin-bottom: 15px; float:left;}
 img.alignright{display:block; margin-left:25px; margin-bottom: 15px; float:right;}
 
+.home-title, .faq-title{font-weight:700;}
+.faq-title{margin-bottom:30px;}
+.home-subtitle{font-size: 18px; color:#767676; margin-bottom:60px;}
 
 .result-heading{font-size:24px; margin-bottom:35px; margin-top: 20px;}
 .search-results ul{list-style:none; padding:0;}
@@ -144,7 +148,12 @@ img.alignright{display:block; margin-left:25px; margin-bottom: 15px; float:right
 
 
 @media screen and (min-width:1200px){
+	.footer .footer-section:last-child{padding-left:0;}
 	.footer .widget-area{padding:0;}
 	#menu-social li a{text-align: right;}
 }
 
+@media screen and (max-width:992px){
+	h4.copyright:before{position:static;}
+	.footer, .footer .footer-mail.text-right{text-align: center;}
+}
