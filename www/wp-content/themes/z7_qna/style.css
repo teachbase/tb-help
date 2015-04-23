@@ -76,9 +76,10 @@ h1,h2,h3,h4,h5,h6{font-weight:300; color:#000000;}
 	.container .top form{ text-align: justify;position: relative;padding-top:0; padding-top: 0;padding-bottom:10px;}
 	.container .top input[type="text"]{font-size: 18px;color:#303030 ;line-height:140%;border:none; display: inline-block; padding:5px 0 0;width:100%;border-bottom:1px solid #94dc94;}
 	.container .top input[type="submit"]{border:none; position: absolute; right:20px; top:5px; display: inline-block;background:transparent url(res/search.png) no-repeat center center; padding:0; width:19px; height:19px;}
+	.container .top input:focus, .container .top input:active{outline:none}
 
 .container .sidebar .menu{margin: 0; padding: 0; list-style:none;}
-	.container .sidebar .menu li{position: relative;padding-left:30px; margin-top:20px;}
+	.container .sidebar .menu li{position: relative; padding-left: 27px;margin-top:20px;}
 		.container .sidebar .menu li a{margin: 0; display: inline-block;}
 		.container .sidebar .menu li a img{position: absolute; top:0; left: 0;}
 	.container .sidebar .menu li:first-child a{border-bottom: 1px solid #eee; padding-bottom: 15px;}
@@ -109,10 +110,12 @@ h1,h2,h3,h4,h5,h6{font-weight:300; color:#000000;}
 .container .contentcolumn .like-block .post-ratings img:first-child{margin-right: 10px;}
 
 .footer{overflow: hidden; margin-top:50px; background:#fafafa; border-top:1px solid #e7e7e7; width:100%; padding:30px 0;}
-.footer h4{margin-top:0;}
+.footer h4{margin-top:0; font-size:16px;}
 .footer .footer-mail{margin-bottom:20px;}
 .footer .footer-mail a{color:#252525; text-decoration: underline;}
+.footer .footer-section:last-child{padding-left:0;}
 .sidebar-footer .widget_nav_menu ul.menu{list-style: none; padding:0;}
+.sidebar-footer .widget_nav_menu ul.menu li a{color:#a1a1a1; text-decoration: underline;}
 h4.copyright {position: relative;}
 h4.copyright:before {content: '©';position: absolute;top: 0;left: -18px;}
 #home-page-menu .menu{list-style:none;}
