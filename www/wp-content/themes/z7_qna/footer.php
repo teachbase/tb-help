@@ -1,7 +1,7 @@
 	</div>
 	<div class="footer">
 		<div class="container wrap">
-			<?php get_sidebar('footer'); ?>
+			<?php get_sidebar('footer'); // Подключаем сайдбар футера?>
 		</div>
 	</div>
 	<?php wp_footer(); ?>
