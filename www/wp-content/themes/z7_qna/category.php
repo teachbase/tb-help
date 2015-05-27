@@ -8,7 +8,8 @@
 	$category_current = array();
 	$category_prev = array();
 	$i =0;
-	if (have_posts()) : while (have_posts()) : the_post(); 
+	$cat_posts = new WP_Query($query_string."&orderby=parent&order=ASC");
+	if ($cat_posts->have_posts()):while($cat_posts->have_posts()):$cat_posts->the_post();
 		$category_current = get_the_category($post->ID); 
 		if($category_current[0]->term_id != $category_prev[0]->term_id && cat_is_ancestor_of($category, $category_current[0]->term_id)):?>
 			<?php if ($i!=0):?>
