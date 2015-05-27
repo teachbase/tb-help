@@ -14,7 +14,6 @@ jQuery(function($){
 		else if(width < 980) {
 			col = $container.width();
 		}
-		console.log(col);
 		// initialize
 		$container.masonry({
 			itemSelector: 	'.subcategory-wrapper',
