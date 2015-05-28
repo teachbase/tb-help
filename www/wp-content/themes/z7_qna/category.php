@@ -4,6 +4,7 @@
 	<h2 class="category-title"><?php single_cat_title()?></h2>
 	<ul class="category-post-list post-list row">
 	<?php
+	global $query_string;
 	$category = get_query_var('cat');
 	$category_current = array();
 	$category_prev = array();
