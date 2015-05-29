@@ -51,7 +51,7 @@
 }
 *{-webkit-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -o-transition: all 0.25s ease-out; transition: all 0.25s ease-out;}
 html{margin: 0; padding: 0; width: 100%; position: relative;}
-body{margin: 0; padding: 0; width: 100%; position: relative; font-weight:300; font-family: 'PFBeauSansPro', Helvetica, sans-serif; font-size: 16px; color:#252525;}
+body{margin: 0; padding: 0; width: 100%; position: relative; font-weight:300; font-size: 15px; font-family: 'PT Sans', 'PFBeauSansPro', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscalefont-size: 16px; color:#252525;}
 .clear{clear: both;}
 ::-webkit-input-placeholder {color:#87bc87;}
 ::-moz-placeholder          {color:#87bc87;}/* Firefox 19+ */
@@ -111,7 +111,7 @@ h1,h2,h3,h4,h5,h6{font-weight:300; color:#000000;}
 .container .contentcolumn .like-block .col-sm-4{padding-left:0;}
 .container .contentcolumn .like-block .post-ratings img:first-child{margin-right: 10px;}
 
-.footer{font-family: 'PT Sans', 'PFBeauSansPro', Helvetica, sans-serif; font-weight: 400;overflow: hidden; margin-top:50px; background:#fafafa; border-top:1px solid #e7e7e7; width:100%;   padding: 70px 0;}
+.footer{font-weight: 400;overflow: hidden; margin-top:50px; background:#fafafa; border-top:1px solid #e7e7e7; width:100%;   padding: 70px 0;}
 .footer h4{margin-top:0; font-size:13px; margin-bottom:16px;padding-top: 6px;line-height: 18px;}
 .footer .footer-mail{margin-bottom:20px;}
 .footer .widget-area{margin-bottom:20px;}
