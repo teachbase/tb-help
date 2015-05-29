@@ -5,23 +5,29 @@
 	<ul class="category-post-list post-list row">
 	<?php
 	global $query_string;
-	$category = get_query_var('cat');
-	$category_current = array();
-	$category_prev = array();
-	$i =0;
-	$cat_posts = new WP_Query($query_string."&orderby=parent&order=ASC");
-	if ($cat_posts->have_posts()):while($cat_posts->have_posts()):$cat_posts->the_post();
-		$category_current = get_the_category($post->ID); 
-		if($category_current[0]->term_id != $category_prev[0]->term_id && cat_is_ancestor_of($category, $category_current[0]->term_id)):?>
-			<?php if ($i!=0):?>
-				</ul></li>
-			<?php endif;?>
-			<li class="subcategory-wrapper col-md-6">
-				<h2><?php echo $category_current[0]->name; ?></h2>
-				<ul>
-		<?php endif?>
-					<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-	<?php $category_prev = $category_current; $i++;endwhile; else: ?> <?php endif; ?>
-	</ul>
+        $cat_id = get_query_var('cat');
+        $categories = get_categories(array('parent' => $cat_id));
+        
+        if(count($categories) == 0)
+          $categories = array(get_category($cat_id));        
+       
+        foreach($categories as $cat){
+          $cat_posts = new WP_Query("cat=".$cat->term_id);
+          
+          if ($cat_posts->have_posts()){?>
+            <li class="subcategory-wrapper col-md-6">
+              <h2><?php echo $cat->name; ?></h2>
+              <ul>
+            <?php
+            while($cat_posts->have_posts()){
+              $cat_posts->the_post();?>
+              <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+           <?php
+            }?>
+            </ul></li>
+           <?php
+          }
+        }?>
+       </ul>
 </div>
 <?php get_footer(); ?>
