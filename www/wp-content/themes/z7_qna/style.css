@@ -91,7 +91,7 @@ h1,h2,h3,h4,h5,h6{font-weight:300; color:#000000;}
 .post{line-height: 24px;}
 .post .post-title{line-height:31px;}
 .post table{margin-bottom:30px;max-width:100%;}
-.post table img{max-width:100%;}
+.post table img{max-width:100%; height:auto;}
 .post table p,.post table h4,.post table h3,.post table h2 {margin:25px 30px;}
 .post table h4,.post table h3,.post table h2{font-weight: 700;}
 .container .contentcolumn .post h1{font-size: 16px; line-height: 20px; margin-top: 0;}
